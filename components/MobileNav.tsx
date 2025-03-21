@@ -36,20 +36,17 @@ const MobileNav = ({user}:
       </SheetTrigger>
      <SheetContent side="left" className="border-none 
      bg-white">
-     <Link href="/" 
-        className="mb-12 cursor-pointer flex
+     <Link href="/" className=" cursor-pointer flex
         items-center gap-1 px-4">
-          I<Image
-             src="icons/logo.svg"
+          <Image
+             src="/icons/logo.svg"
              width={34}
              height={34}
              alt="Endless logo"
             />
             <h1
-            className="text-26 font-26-ibm-plex-serif
-            font-bold text-black-1">
-              Endless
-            </h1>
+            className="text-26 font-ibm-plex-serif
+            font-bold text-black-1"> Endless</h1>
         </Link>
 
         <div className="mobilenav-sheet">
